@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(3, 0, 5);
+}
+
+header{
+    background-color: rgb(39, 135, 190);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1{
+    text-align: center;
+    color: rgb(21, 6, 160);
+    margin: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.623);
+    background-color: cadetblue;
+    
+}
+
+span{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 13%;
+    font-style: italic;
+    font-size: 24px;
+    color: white;
+}
+
+.vencedor{
+    position: absolute;
+    top: 40%;
+    left: 22%;
+    display: none;
+    transition: 0.3;
+    width: 400px;
+    height: 130px;
+    background-color: #36b61d42;
+    border: 4px solid rgba(3, 59, 15, 0.781);
+    border-radius: 2%;
+    margin: 10px auto;
+}
+
+.vencedor h2{
+    text-align: center;
+    margin-top: 10%;
+}
+
+.player-options img,
+.enemy-options img{
+    width: 200px;
+    margin-left: 50px;
+    opacity: 0.3;
+}
+
+.player-options,
+.enemy-options{
+    width: 50%;
+}
+
+.aling{
+    display: flex;
+}
+
+@media screen and (max-width: 600px) {
+    .vencedor{
+        top: 40%;
+        left: 10%;
+    }
+}
