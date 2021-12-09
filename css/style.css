@@ -71,7 +71,19 @@ span{
 
 @media screen and (max-width: 600px) {
     .vencedor{
-        top: 40%;
-        left: 10%;
+        position: relative;
+        width: 90%;
+        left: 5%;
+        right: 5%;
+        margin: 10px;
     }
+
+    .player-options img,
+    .enemy-options img{
+        width: 135px;
+        margin-left: 30px;
+        opacity: 0.3;
+    }
+
+    
 }
